@@ -5,6 +5,7 @@ import ArtistsReducer from './ArtistsReducer';
 import ErrorReducer from './ErrorReducer';
 import SelectionReducer from './SelectionReducer';
 
+
 export default combineReducers({
   form: formReducer,
   filterCriteria: filterCriteriaReducer,
